@@ -70,6 +70,14 @@ public class Main {
         mergeSort.sort(mergeSortArray);
 
 
+        int[] quickSortArray = new int[7];
+
+        for(int i=0;i<quickSortArray.length;i++){
+            quickSortArray [i]=intArray[i];
+        }
+        QuickSort quickSort = new QuickSort();
+        quickSort.sort(quickSortArray);
+
 
 
     }
