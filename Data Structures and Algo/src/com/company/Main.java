@@ -78,7 +78,8 @@ public class Main {
         QuickSort quickSort = new QuickSort();
         quickSort.sort(quickSortArray);
 
-
+    CountingSort countSort= new CountingSort();
+    countSort.doCountSort();
 
     }
 }
