@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe24741a-771d-4cb1-b796-d7ee5a582e84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Data Structures and Algo/src/com/company/CountingSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Data Structures and Algo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Structures and Algo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Structures and Algo/out/production/Data Structures and Algo/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Structures and Algo/out/production/Data Structures and Algo/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Structures and Algo/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Structures and Algo/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -101,7 +98,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -116,7 +112,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
