@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        ArrayListImplementation arrayListImplementation=new ArrayListImplementation();
+      /*  ArrayListImplementation arrayListImplementation=new ArrayListImplementation();
         arrayListImplementation.arrayListImplementation();
 
         VectorImplementation vectorImplementation=new VectorImplementation();
@@ -27,6 +27,13 @@ public class Main {
 
         CircularQueueImplementation circularQueueImplementation=new CircularQueueImplementation();
         circularQueueImplementation.circularQueueImplementation();
+
+        SimpleHashTableImplementation simpleHashTableImplementation=new SimpleHashTableImplementation();
+        simpleHashTableImplementation.hashTableImplementation(); */
+
+        hashTableJDK hashTableJDK = new hashTableJDK();
+        hashTableJDK.hashtTableJDKImplementation();
+
     }
 
 
