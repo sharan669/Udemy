@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] intArray= new int[7];
+        /*int[] intArray= new int[7];
         intArray[0]=20;
         intArray[1]=35;
         intArray[2]=-10;
@@ -79,7 +79,10 @@ public class Main {
         quickSort.sort(quickSortArray);
 
     CountingSort countSort= new CountingSort();
-    countSort.doCountSort();
+    countSort.doCountSort();*/
+
+    BucketSort bucketSort = new BucketSort();
+    bucketSort.bucketSortImplementation();
 
     }
 }
