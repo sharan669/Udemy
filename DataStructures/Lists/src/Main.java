@@ -34,8 +34,11 @@ public class Main {
       /*  hashTableJDK hashTableJDK = new hashTableJDK();
         hashTableJDK.hashtTableJDKImplementation();
 */
-      TreeImplementation treeImplementation1 = new TreeImplementation();
-      treeImplementation1.treeImplementation();
+   /*   TreeImplementation treeImplementation1 = new TreeImplementation();
+      treeImplementation1.treeImplementation();*/
+
+   HeapImplementation heapImplementation = new HeapImplementation();
+   heapImplementation.heapImplementation();
 
     }
 
