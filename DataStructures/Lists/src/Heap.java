@@ -62,7 +62,7 @@ public class Heap {
         heap[index] = heap[size - 1]; //the node that needs to be used for swapping, the right most node of the leaves
 
         if (index == 0 || heap[index] < heap[parent]) { //if it holds the max heap properties
-            fixHeapBelow(index, size - 1);
+            fixHeapBelow(heap, index, size - 1);
         } else {
             fixHeapAbove(index);
         }
@@ -83,8 +83,8 @@ public class Heap {
         heap[index] = newValue; //put the final value in the correct position
     }
 
-    private void fixHeapBelow(int index, int lastHeapIndex) {
-
+    private void fixHeapBelow(int heap1[],int index, int lastHeapIndex) {
+        int[] heap = heap1;
         int childToSwap;
 
         while (index <= lastHeapIndex) {
@@ -112,6 +112,22 @@ public class Heap {
             }
         }
 
+    }
+
+    public void heapSort(){
+
+        int[] heapArray = heap;
+        int currentLastIndex = size-1;
+
+        while(currentLastIndex > 1){
+            int temp= heapArray[currentLastIndex];
+            heapArray[currentLastIndex] = heap[0];
+            heap[0] = temp;
+            currentLastIndex --;
+            fixHeapBelow(heapArray,0,currentLastIndex);
+        }
+
+        System.out.println("The sorted heap is " + Arrays.toString(heapArray));
     }
 
     @Override

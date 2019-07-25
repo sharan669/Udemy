@@ -81,8 +81,18 @@ public class Main {
     CountingSort countSort= new CountingSort();
     countSort.doCountSort();*/
 
-    BucketSort bucketSort = new BucketSort();
-    bucketSort.bucketSortImplementation();
+  /*  BucketSort bucketSort = new BucketSort();
+    bucketSort.bucketSortImplementation();*/
+
+/*
+  RadixSort radixSort= new RadixSort();
+  radixSort.sort();
+*/
+
+
+SortJDK sortJDK= new SortJDK();
+sortJDK.sortJDK();
+
 
     }
 }

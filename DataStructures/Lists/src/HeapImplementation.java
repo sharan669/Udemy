@@ -14,7 +14,9 @@ public class HeapImplementation {
 
         heap.printHeap();
 
-        System.out.println("-----------");
+        heap.heapSort();
+
+      /*  System.out.println("-----------");
 
         heap.delete(0);
 
@@ -22,7 +24,7 @@ public class HeapImplementation {
 
         System.out.println("-----------");
 
-        System.out.println("Peak :" + heap.peek());
+        System.out.println("Peak :" + heap.peek());*/
 
 
 

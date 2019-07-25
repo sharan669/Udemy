@@ -39,6 +39,9 @@ public class Main {
 
    HeapImplementation heapImplementation = new HeapImplementation();
    heapImplementation.heapImplementation();
+/*
+PriorityQueue1 priorityQueue1=new PriorityQueue1();
+priorityQueue1.priorityQueue();*/
 
     }
 
